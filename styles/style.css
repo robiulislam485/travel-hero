@@ -5,3 +5,111 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  *{
+    margin: 0 auto;
+  }
+  /* shared use */
+  .display-flex{
+    display: flex;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .text-color{
+   color: rgb(255, 84, 0);
+  }
+  /* dark2 */
+  .text-gray{
+    color: rgb(66, 66, 71);
+  }
+h3{
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+}
+.btn-primary{
+  border-radius: 8px;
+background: rgb(255, 84, 0);
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+width: 174px;
+height: 52px;
+border: none;
+}
+.banner-btn{
+
+
+}
+  /* nav related style */
+.nav-link{
+  text-decoration: none;
+}
+.nav-item{
+  list-style: none;
+}
+.nav-items{
+  gap: 44px;
+}
+.nav-bar{
+  justify-content: space-between;
+}
+/* nav end */
+
+/* banner section start */
+.banner-container{
+  max-width: 1170px;
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 7rem 0;
+
+}
+.banner-container h1{
+  color: rgb(255, 255, 255);
+font-size: 4rem;
+font-weight: 800;
+line-height: 80px;
+}
+.banner-container p{
+  color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
+.travel-input{
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.3);
+padding: 1rem;
+width: 800px;
+margin-top: 48px;
+justify-content: space-around;
+align-items: center;
+}
+input , select{
+  width: 174px;
+height: 52px;
+padding:  0 0.5rem;
+margin: 0 1rem;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+  nav ul, .nav-bar, .nav-items, .display-flex{
+      flex-direction: column;
+      text-align: center;
+      gap: 5px;
+  }
+}
